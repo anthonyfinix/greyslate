@@ -1,2 +1,4 @@
 node_modules/
-react-client/
+react-client/node_modules/
+react-client/build/
+.env

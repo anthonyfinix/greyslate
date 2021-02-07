@@ -1,0 +1,44 @@
+.headerMainWrapper{
+    display: flex;
+    flex-basis: 20px;
+    background-color: #181818;
+    min-height: 60px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.headerWrapper{
+    display: flex;
+    align-items:center;
+    max-width: 1320px;
+    margin: auto;
+    width: 100%;
+}
+.searchBarWrapper{
+    position: relative;
+    flex-grow:1;
+}
+.searchBarWrapper > .searchBar{
+    background-color:#181818;
+    border:3px solid #1f1f1f;
+    min-height:40px;
+    border-radius:5px;
+    padding-left:20px;
+    color: white;
+    width: 100%;
+}
+.searchBarWrapper > .searchBar::placeholder{
+    letter-spacing: 1px;
+}
+.logo{
+    width: 70px;
+    height: 50px;
+    margin-right:50px;
+}
+.searchBarWrapper > .searchLoadingIcon{
+    width:20px;
+    height:20px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}

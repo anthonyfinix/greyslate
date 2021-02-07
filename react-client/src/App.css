@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;700;900&display=swap');
+*{
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+  background-color: rgb(24, 24, 24);
+  color: white;
+  height: 100vh;
+  overflow: hidden;
+}
+.app-wrapper{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.games-wrapper{
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  position: relative;
+  overflow-y: scroll;
+  height: 100%;
+}
+.game-card-wrapper{
+  flex-basis: 20%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
