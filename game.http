@@ -1,0 +1,32 @@
+#### ROOT GAME LIST
+GET http://localhost:8080/api/games
+
+
+#### SINGLE GAME
+GET http://localhost:8080/api/game/12323
+
+
+
+#### ADDITION DLCS AND GAMES
+GET https://api.rawg.io/api/games/3498/additions
+
+
+
+#### DELOEPERS OF THE GAME
+GET https://api.rawg.io/api/games/3498/development-team
+
+
+
+#### SCREENSHOTS
+GET https://api.rawg.io/api/games/3498/screenshots
+
+
+
+#### STORES
+GET https://api.rawg.io/api/games/3498/stores
+
+
+
+#### DEVELOPERS
+GET https://api.rawg.io/api/games/3498
+

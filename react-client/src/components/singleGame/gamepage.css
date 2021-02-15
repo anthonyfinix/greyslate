@@ -1,0 +1,32 @@
+#game-page-wrapper .cover-image {
+  min-height: 250px;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: 20%;
+}
+#game-page-wrapper .section-1 {
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 20px;
+}
+#game-page-wrapper .section-1 > div {
+  flex-grow: 1;
+}
+#game-page-wrapper .section-1 .buy-now-section {
+  flex-basis: 350px;
+  flex-grow: 0;
+}
+
+#game-page-wrapper .game-name {
+  font-weight: lighter;
+  text-transform: uppercase;
+  font-size: 36px;
+  letter-spacing: 2px;
+}
+
+#game-page-wrapper .publisher {
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 2px;
+}

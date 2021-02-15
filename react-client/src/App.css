@@ -21,6 +21,8 @@ body{
   position: relative;
   overflow-y: scroll;
   height: 100%;
+  max-width: 1320px;
+  margin: auto;
 }
 .game-card-wrapper{
   flex-basis: 20%;

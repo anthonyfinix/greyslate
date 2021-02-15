@@ -10,7 +10,7 @@ body {
   background: #181818;
 }
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: rgb(44, 44, 44);
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #555;

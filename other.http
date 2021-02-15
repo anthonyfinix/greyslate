@@ -1,0 +1,12 @@
+###
+GET https://api.rawg.io/api/games/sitemap
+###
+GET https://api.rawg.io/api/creator-roles
+###
+GET https://api.rawg.io/api/creators
+###
+GET https://api.rawg.io/api/developers
+###
+GET https://api.rawg.io/api/developers
+###
+GET https://api.rawg.io/api/games

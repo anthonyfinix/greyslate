@@ -14,7 +14,7 @@ const Header = ({ searchTerm, setSearchTerm, setSearchInit, setPage, searchInit,
     return (
         <div className="headerMainWrapper">
             <div className="headerWrapper">
-                <img src={logo} className="logo" alt="logo" />
+                <img src={logo} className="logo" alt="brand" />
                 <div className="searchBarWrapper">
                     <input
                         value={searchTerm}
@@ -23,7 +23,7 @@ const Header = ({ searchTerm, setSearchTerm, setSearchInit, setPage, searchInit,
                         className="searchBar"
                         placeholder="SEARCH"
                     />
-                    {searchInit?<img className="searchLoadingIcon" src={loadingGif} />:null}
+                    {searchInit?<img className="searchLoadingIcon" src={loadingGif} alt="searching gif" />:null}
                 </div>
 
             </div>
