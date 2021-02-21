@@ -1,30 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.cb653b1b.chunk.css",
-    "main.js": "/static/js/main.c232f265.chunk.js",
-    "main.js.map": "/static/js/main.c232f265.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.d9aa33eb.js",
-    "runtime-main.js.map": "/static/js/runtime-main.d9aa33eb.js.map",
-    "static/js/2.252fa70c.chunk.js": "/static/js/2.252fa70c.chunk.js",
-    "static/js/2.252fa70c.chunk.js.map": "/static/js/2.252fa70c.chunk.js.map",
-    "static/js/3.c2c31221.chunk.js": "/static/js/3.c2c31221.chunk.js",
-    "static/js/3.c2c31221.chunk.js.map": "/static/js/3.c2c31221.chunk.js.map",
+    "main.css": "/static/css/main.85322e24.chunk.css",
+    "main.js": "/static/js/main.01aeab04.chunk.js",
+    "main.js.map": "/static/js/main.01aeab04.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.86d00d1e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.86d00d1e.js.map",
+    "static/js/2.28ef0de6.chunk.js": "/static/js/2.28ef0de6.chunk.js",
+    "static/js/2.28ef0de6.chunk.js.map": "/static/js/2.28ef0de6.chunk.js.map",
+    "static/js/3.587530a3.chunk.js": "/static/js/3.587530a3.chunk.js",
+    "static/js/3.587530a3.chunk.js.map": "/static/js/3.587530a3.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.cb653b1b.chunk.css.map": "/static/css/main.cb653b1b.chunk.css.map",
-    "static/js/2.252fa70c.chunk.js.LICENSE.txt": "/static/js/2.252fa70c.chunk.js.LICENSE.txt",
+    "static/css/main.85322e24.chunk.css.map": "/static/css/main.85322e24.chunk.css.map",
+    "static/js/2.28ef0de6.chunk.js.LICENSE.txt": "/static/js/2.28ef0de6.chunk.js.LICENSE.txt",
     "static/media/apple.6424bfab.svg": "/static/media/apple.6424bfab.svg",
     "static/media/gmrwhite.81684dbd.svg": "/static/media/gmrwhite.81684dbd.svg",
     "static/media/linux.06a6db4f.svg": "/static/media/linux.06a6db4f.svg",
     "static/media/nintendoSwitch.a4349f4d.svg": "/static/media/nintendoSwitch.a4349f4d.svg",
     "static/media/playstation.2ce748f8.svg": "/static/media/playstation.2ce748f8.svg",
     "static/media/star.36390b91.svg": "/static/media/star.36390b91.svg",
+    "static/media/steam.5bbb5e6c.svg": "/static/media/steam.5bbb5e6c.svg",
     "static/media/windows.e10bb1b5.svg": "/static/media/windows.e10bb1b5.svg",
     "static/media/xbox.8e8a0f6d.svg": "/static/media/xbox.8e8a0f6d.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d9aa33eb.js",
-    "static/js/2.252fa70c.chunk.js",
-    "static/css/main.cb653b1b.chunk.css",
-    "static/js/main.c232f265.chunk.js"
+    "static/js/runtime-main.86d00d1e.js",
+    "static/js/2.28ef0de6.chunk.js",
+    "static/css/main.85322e24.chunk.css",
+    "static/js/main.01aeab04.chunk.js"
   ]
 }
