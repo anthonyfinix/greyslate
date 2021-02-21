@@ -2,6 +2,8 @@ import React from 'react';
 import logo from '../../assets/gmrwhite.svg';
 import './header.css';
 import loadingGif from '../../assets/loading.gif';
+import {Link} from 'react-router-dom';
+
 const Header = ({ searchTerm, setSearchTerm, setSearchInit, setPage, searchInit,loading }) => {
     const handleSearchInput = (e) => {
         let value = e.currentTarget.value;
@@ -14,7 +16,7 @@ const Header = ({ searchTerm, setSearchTerm, setSearchInit, setPage, searchInit,
     return (
         <div className="headerMainWrapper">
             <div className="headerWrapper">
-                <img src={logo} className="logo" alt="brand" />
+                <Link to="/"><img src={logo} className="logo" alt="brand" /></Link>
                 <div className="searchBarWrapper">
                     <input
                         value={searchTerm}

@@ -1,3 +1,6 @@
+#game-page-wrapper {
+  overflow-y: scroll;
+}
 #game-page-wrapper .cover-image {
   min-height: 250px;
   background-size: cover;
@@ -18,15 +21,91 @@
   flex-grow: 0;
 }
 
-#game-page-wrapper .game-name {
-  font-weight: lighter;
+#game-page-wrapper .section-1 .game-name {
+  font-weight: normal;
   text-transform: uppercase;
   font-size: 36px;
   letter-spacing: 2px;
 }
 
-#game-page-wrapper .publisher {
+#game-page-wrapper .section-1 .publisher {
   text-transform: uppercase;
   font-size: 11px;
   letter-spacing: 2px;
+}
+#game-page-wrapper .section-1 .rating-start-wrapper {
+  margin-top: 20px;
+}
+#game-page-wrapper .section-1 .highest-rating-title {
+  text-transform: lowercase;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+#game-page-wrapper .section-1 .rating {
+  text-transform: lowercase;
+  font-weight: 900;
+  font-size: 26px;
+  letter-spacing: 2px;
+  margin-top: 0px;
+}
+#game-page-wrapper .detailed-content-wrapper {
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 20px;
+  display: flex;
+}
+#game-page-wrapper .detailed-content-wrapper .main-contents{
+  padding-right: 50px;
+}
+#game-page-wrapper .detailed-content-wrapper .sidebar-contents {
+  flex-basis: 350px;
+  min-width: 350px;
+  flex-grow: 0;
+}
+#game-page-wrapper .detailed-content-wrapper .sidebar-contents .title,
+#game-page-wrapper .detailed-content-wrapper .main-contents .title {
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #464646;
+  margin-bottom: 3px;
+}
+#game-page-wrapper .detailed-content-wrapper .description-wrapper .description {
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #9b9b9b;
+  display: block;
+}
+#game-page-wrapper .detailed-content-wrapper .ratings-wrapper .elements-wrapper {
+  
+}
+#game-page-wrapper .detailed-content-wrapper .ratings-wrapper .elements-wrapper > .row{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 10px;
+}
+#game-page-wrapper .detailed-content-wrapper .ratings-wrapper .elements-wrapper .row p{
+  margin: 0px;
+  color: #e2e2e2;
+}
+#game-page-wrapper .detailed-content-wrapper .ratings-wrapper .elements-wrapper .row p.rating-title{
+  margin-right: auto;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 3px;
+
+}
+#game-page-wrapper .detailed-content-wrapper .ratings-wrapper .elements-wrapper .row p.count{
+  margin-right: 10px;
+}
+#game-page-wrapper .detailed-content-wrapper .ratings-wrapper .elements-wrapper .row p.percent{
+  width:60px;
+  text-align: right;
+}
+#game-page-wrapper .detailed-content-wrapper .ratings-wrapper .elements-wrapper .rating-bar{
+  height: 2px;
+  margin-top: 5px;
 }

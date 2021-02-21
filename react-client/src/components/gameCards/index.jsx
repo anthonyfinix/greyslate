@@ -2,12 +2,11 @@ import React from 'react';
 import './gamecard.css';
 import getPlatforms from './platform';
 import getStarRatings from './star';
-import config from '../../util/config';
 import { Link } from 'react-router-dom';
 
 let GameCard = ({ game }) => {
     return (
-        <Link to={`/game/${game.id}`} className="game-card">
+        <Link to={`/game/${game.id}`} target="_blank" className="game-card">
             <div className="game-cover">
                 <img src={game.background_image} alt="game cover" />
             </div>

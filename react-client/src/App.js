@@ -27,6 +27,7 @@ function App() {
     if (searchTerm !== "") params.search = searchTerm;
     params.page = page;
     axios.get(`${config.api_url}/api/games`, { params }).then((response) => {
+      console.log(response.data);
       setGames((prevGames) => [...prevGames, ...response.data.results]);
       setLoading(false);
     });
@@ -38,7 +39,7 @@ function App() {
     params.page = page;
     axios.get(`${config.api_url}/api/games`, { params }).then((response) => {
       setPage(1);
-      setGames(response.data.results);
+      setGames(response);
       setSearchInit(false);
       setLoading(false);
     });

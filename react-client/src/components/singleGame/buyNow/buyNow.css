@@ -1,0 +1,32 @@
+#game-page-wrapper .buy-now-section {
+  text-transform: lowercase;
+}
+#game-page-wrapper .buy-now-section .buy-now-title {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+#game-page-wrapper .buy-now-section .buy-now-buttons-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+#game-page-wrapper .buy-now-section .buy-button {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-weight: normal;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+
+#game-page-wrapper .buy-now-section .buy-button img {
+  margin-right: 5px;
+}

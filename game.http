@@ -6,6 +6,10 @@ GET http://localhost:8080/api/games
 GET http://localhost:8080/api/game/12323
 
 
+#### STORE GAME
+GET http://localhost:8080/api/stores/2
+
+
 
 #### ADDITION DLCS AND GAMES
 GET https://api.rawg.io/api/games/3498/additions
@@ -24,6 +28,11 @@ GET https://api.rawg.io/api/games/3498/screenshots
 
 #### STORES
 GET https://api.rawg.io/api/games/3498/stores
+
+
+
+#### STORES ID
+GET https://api.rawg.io/api/stores/11
 
 
 

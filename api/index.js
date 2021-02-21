@@ -21,4 +21,20 @@ route.get("/game/:gameId", async (req, res) => {
     .catch((error) => res.send(error));
 });
 
+route.get("/game/:gameId/stores", async (req, res) => {
+  let { gameId } = req.params;
+  rawg_api
+    .get(`/api/games/${gameId}/stores`)
+    .then((response) => res.send(response.data))
+    .catch((error) => res.send(error));
+});
+
+route.get("/stores/:storeId", async (req, res) => {
+  let { storeId } = req.params;
+  rawg_api
+    .get(`/api/stores/${storeId}`)
+    .then((response) => res.send(response.data))
+    .catch((error) => res.send(error));
+});
+
 module.exports = route;

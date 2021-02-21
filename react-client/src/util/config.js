@@ -1,4 +1,4 @@
 const config = {
-  api_url:"https://greyslate.herokuapp.com",
+  api_url:"http://localhost:8080",
 };
 export default config;
