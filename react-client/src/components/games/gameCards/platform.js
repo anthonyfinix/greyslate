@@ -1,9 +1,9 @@
-import windows from "../../assets/windows.svg";
-import xbox from "../../assets/xbox.svg";
-import playstation from "../../assets/playstation.svg";
-import nintendoSwitch from "../../assets/nintendoSwitch.svg";
-import linux from "../../assets/linux.svg";
-import apple from "../../assets/apple.svg";
+import windows from "../../../assets/windows.svg";
+import xbox from "../../../assets/xbox.svg";
+import playstation from "../../../assets/playstation.svg";
+import nintendoSwitch from "../../../assets/nintendoSwitch.svg";
+import linux from "../../../assets/linux.svg";
+import apple from "../../../assets/apple.svg";
 
 const getPlatforms = (platforms) => {
   if (platforms === null) platforms = [];
