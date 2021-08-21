@@ -1,7 +1,6 @@
 import React from 'react';
 import logo from '../../assets/gmrwhite.svg';
 import './header.css';
-import loadingGif from '../../assets/loading.gif';
 import {Link} from 'react-router-dom';
 
 const Header = ({ searchTerm, setSearchTerm, setSearchInit, setPage, searchInit,loading }) => {

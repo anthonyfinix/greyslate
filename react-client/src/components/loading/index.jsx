@@ -1,17 +1,13 @@
 import React from 'react';
-import loadingGif from '../../assets/loading.gif';
+import classes from './loading.module.scss';
+import CircularProgress from '@material-ui/core/CircularProgress';
 
-const style = {
-    loadingWrapper:{ textAlign: "center", width: "100%", marginTop: 30,marginBottom:30 },
-    loadingGif:{width:30,height:30}
-}
-
-let LoadingGif = () => {
+let Loading = () => {
     return (
-        <div className="loading-wrapper" style={style.loadingWrapper}>
-            <img style={style.loadingGif} src={loadingGif} alt="loading" />
-        </div>
+        <div className={`${classes.wrapper}`} >
+            <CircularProgress />
+        </div >
     )
 }
 
-export default LoadingGif;
+export default Loading;

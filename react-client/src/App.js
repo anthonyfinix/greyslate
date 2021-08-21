@@ -6,8 +6,9 @@ import "./App.css";
 // import GamesWrapper from "./components/gameWrapper";
 // import SingleGame from "./components/singleGame";
 import { BrowserRouter } from "react-router-dom";
-import ReactProvider from './redux';
+import ReduxProvider from './redux';
 import Main from './Pages/index';
+import Material from "./components/material";
 
 function App() {
   // const [page, setPage] = React.useState(1);
@@ -61,11 +62,12 @@ function App() {
   // }, [page, searchTerm]);
 
   return (
-    <ReactProvider>
-      <BrowserRouter>
-        <Main />
-      </BrowserRouter>
-      {/* <Router>
+    <Material>
+      <ReduxProvider>
+        <BrowserRouter>
+          <Main />
+        </BrowserRouter>
+        {/* <Router>
         <div className="app-wrapper">
           
           <Switch>
@@ -84,7 +86,8 @@ function App() {
           </Switch>
         </div>
       </Router> */}
-    </ReactProvider>
+      </ReduxProvider>
+    </Material>
   );
 }
 

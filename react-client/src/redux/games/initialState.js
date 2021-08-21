@@ -1,6 +1,7 @@
 export default {
-    games:[],
-    isLoading:true,
-    hasError:false,
-    currentGame:{},
+    games: [],
+    isFetching: false,
+    hasError: false,
+    currentGame: {},
+    page: 1,
 }
