@@ -1,8 +1,10 @@
-import { ThemeProvider } from '@material-ui/core/styles'
+import ThemeProvider from '@material-ui/core/styles/MuiThemeProvider'
+import CssBaseline from "@material-ui/core/CssBaseline";
 import theme from "./theme";
 const Material = ({ children, ...props }) => {
     return (
         <ThemeProvider theme={theme}>
+            <CssBaseline/>
             {children}
         </ThemeProvider>
     )

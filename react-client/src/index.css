@@ -7,7 +7,7 @@ body {
   width: 4px;
 }
 ::-webkit-scrollbar-track {
-  background: #181818;
+  background: #212121;
 }
 ::-webkit-scrollbar-thumb {
   background: rgb(44, 44, 44);

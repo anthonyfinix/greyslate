@@ -4,28 +4,6 @@
   font-family: 'Source Sans Pro', sans-serif;
 }
 body{
-  background-color: rgb(24, 24, 24);
-  color: white;
   height: 100vh;
   overflow: hidden;
-}
-.app-wrapper{
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-.games-wrapper{
-  display: flex;
-  flex-grow: 1;
-  flex-wrap: wrap;
-  position: relative;
-  overflow-y: scroll;
-  height: 100%;
-  max-width: 1320px;
-  margin: auto;
-}
-.game-card-wrapper{
-  flex-basis: 20%;
-  flex-grow: 0;
-  flex-shrink: 0;
 }
