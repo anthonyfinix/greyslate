@@ -1,0 +1,2 @@
+export const START_FETCHING_SINGLE_GAME = "START FETCHING SINGLE GAME";
+export default () => ({ type: START_FETCHING_SINGLE_GAME })

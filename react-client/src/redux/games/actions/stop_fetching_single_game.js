@@ -1,0 +1,2 @@
+export const STOP_FETCHING_SINGLE_GAME = "STOP FETCHING SINGLE GAME";
+export default () => ({ type: STOP_FETCHING_SINGLE_GAME })

@@ -3,7 +3,6 @@ import classes from './main.module.scss';
 import Header from '../components/header';
 import Home from './home';
 import NotFound from './notFound';
-import SingleGame from "./SingleGame";
 export default () => {
     return (
         <div id="main-wrapper" className={classes.wrapper}>
